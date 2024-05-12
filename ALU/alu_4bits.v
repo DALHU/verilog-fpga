@@ -3,23 +3,6 @@ input [3:0] A, B; //INPUT A,B
 input [3:0] SEL; //SELECT
 input CI; //CARRY IN
 wire [3:0] R; //RESULT
-B[3..0]
-A[3..0]
-
-R[3..0]
-
-Co OV S Z
-S[3..0]
-
-RS7[6..0]
-
-Hex_7s.v
-alu_core_4bit.v
-
-alu_4bits.v
-
-Ci
-
 output [6:0] R7S; //RESULT EN 7SEGMENTOS
 output CO; //CARRY OUT
 output OV; //OVERFLOW
