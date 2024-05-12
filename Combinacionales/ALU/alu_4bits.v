@@ -1,4 +1,4 @@
-module alu_4bits(CI,SEL,A,B,R7S,CO,OV,Z,S);
+module alu_4bits(CI,SEL,A,B,R7S,CO,OV,Z,S); //TOP HIERARCHY 
 input [3:0] A, B; //INPUT A,B
 input [3:0] SEL; //SELECT
 input CI; //CARRY IN
